@@ -1,0 +1,694 @@
+@media (max-width: 1440px) {
+    /* ноутбук */
+    /*ХЕДЕР*/
+    .burger-toogle {
+        display: none;
+    }
+    .logotype {
+        width: 70%;
+        left: 10px;
+    }
+    .header-title {
+        position: relative;
+        right: 400px;
+    }
+    .contact-button {
+        font-size: 18px;
+        left: 420px;
+        position: relative;
+        top: 20px;
+    }
+    .header-text {
+        font-size: 22px;
+        font-style: 'Raleway Meduim';
+        color: white;
+        margin: 16px;
+        position: relative;
+        left: 350px;
+    }
+    .header-body-text {
+        position: relative;
+        top: 100px;
+    }
+    .header-title a {
+        position: relative;
+        left: 0px;
+        bottom: 8px;
+    }
+    .header-img img {
+        top: 100px;
+        position: relative;
+        width: 500px;
+    }
+    .header-body-title {
+        font-size: 72px;
+    }
+    .counter {
+        position: relative;
+        top: 240px;
+        right: 30px;
+    }
+    /*МОИ РАБОТЫ*/
+    .header-body-title {
+        position: relative;
+        right: 60px;
+    }
+    .jobs-card {
+        position: relative;
+        right: 50px;
+    }
+    .card-image img {
+        width: 400px;
+    }
+    .card-text {
+        font-size: 19px;
+        position: relative;
+        top: 150px;
+    }
+    .card-text-desc {
+        font-size: 16px;
+    }
+    .card-done {
+        position: relative;
+        left: 375px;
+        bottom: 240px;
+    }
+    .card-done img {
+        width: 35px;
+    }
+    /*КОНТАКТЫ*/
+    .contacts-title {
+        position: relative;
+        left: 150px;
+    }
+    .contacts-cards {
+        position: relative;
+        left: 50px
+    }
+    .contact-card {
+        width: 400px;
+        margin: 30px;
+        height: 180px;
+    }
+    .img-center {
+        width: 275px;
+    }
+    .contact-card-text {
+        position: relative;
+        left: 190px;
+    }
+    .card-ico {
+        width: 38px;
+        position: relative;
+        left: 370px;
+    }
+    .counter-3 {
+        position: relative;
+        top: 500px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .header-text {
+        position: relative;
+        left: 450px;
+    }
+    .contact-button {
+        position: relative;
+        left: 490px;
+    }
+    .header-img img {
+        width: 600px;
+        position: relative;
+        left: 50px;
+    }
+    .counter {
+        position: relative;
+        top: 100px;
+    }
+    .card-image img {
+        width: 470px;
+    }
+    .jobs-cards {
+        position: relative;
+        top: 300px;
+        left: 0px;
+    }
+    .card-done {
+        position: relative;
+        bottom: 280px;
+        left: 450px;
+        display: none;
+        transition: 0.3s;
+    }
+    .jobs-card {
+        margin-left: 50px;
+        z-index: 1;
+        transition: 0.3s;
+    }
+    .card-text {
+        position: relative;
+        top: 150px;
+    }
+    .contacts-title {
+        position: relative;
+        top: 200px;
+        left: 100px;
+    }
+    .contact-card {
+        width: 450px;
+        height: 190px;
+    }
+    .contacts-cards {
+        position: relative;
+        left: 50px;
+    }
+    .card-ico {
+        position: relative;
+        left: 420px;
+        bottom: 15px;
+    }
+    .contact-card-text {
+        font-size: 24px;
+        position: relative;
+        left: 270px;
+    }
+    .counter-3 {
+        position: relative;
+        top: 490px;
+    }
+}
+
+@media (max-width: 1366px) {
+    /* ноутбук */
+    /*ХЕДЕР*/
+    .logotype {
+        width: 70%;
+        left: 10px;
+    }
+    .header-text {
+        font-size: 22px;
+        position: relative;
+        left: 320px;
+    }
+    .header-title {
+        position: relative;
+        right: 500px;
+    }
+    .burger-toogle {
+        display: none;
+    }
+    .contact-button {
+        font-size: 18px;
+        left: 380px;
+        top: 15px;
+        position: relative;
+    }
+    .vertborder {
+        height: 120px;
+    }
+    .counter {
+        position: relative;
+        top: 230px;
+        right: 30px;
+    }
+    /*МОИ РАБОТЫ*/
+    .jobs-card {
+        margin-left: 25px;
+    }
+    .jobs-cards {
+        left: 90px;
+        position: relative;
+    }
+    /*КОНТАКТЫ*/
+    .contacts-cards {
+        position: relative;
+        left: 35px;
+    }
+    .contact-card {
+        width: 400px;
+        margin: 20px;
+        height: 180px;
+    }
+    .counter-3 {
+        position: relative;
+        top: 520px;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* ноутбук */
+    /*ХЕДЕР*/
+    .header-title {
+        position: relative;
+        right: 700px;
+    }
+    .logotype {
+        width: 70%;
+        left: 0px;
+    }
+    .header-text {
+        font-size: 20px;
+        position: relative;
+        left: 170px;
+    }
+    .contact-button {
+        font-size: 16px;
+        left: 840px;
+        position: absolute;
+        bottom: 18px;
+    }
+    .burger-toogle {
+        display: none;
+    }
+    .contact-button-text {
+        position: relative;
+        top: 16px;
+    }
+    .vertborder {
+        height: 150px;
+    }
+    .header-body-title {
+        font-size: 64px;
+    }
+    .header-body-title {
+        position: relative;
+        right: 90px;
+    }
+    .header-body-desc {
+        position: relative;
+        right: 100px;
+        font-size: 16px;
+        top: 10px;
+    }
+    .vertborder {
+        bottom: 10px;
+        height: 120px;
+        position: relative;
+        right: 100px;
+    }
+    .counter {
+        top: 240px;
+        position: relative;
+        left: 0px;
+    }
+    /*МОИ РАБОТЫ*/
+    .jobs-card {
+        margin-left: 25px;
+    }
+    .jobs-cards {
+        left: 90px;
+        position: relative;
+    }
+    .card-image img {
+        width: 340px;
+    }
+    .card-done {
+        position: relative;
+        left: 315px;
+        bottom: 205px;
+    }
+    .card-text {
+        font-size: 19px;
+        position: relative;
+        top: 120px;
+    }
+    /*КОНТАКТЫ*/
+    .contact-card {
+        width: 350px;
+        margin: 20px;
+        height: 160px;
+    }
+    .contact-card {
+        width: 350px;
+        margin: 20px;
+        height: 160px;
+    }
+    .card-ico {
+        left: 320px;
+        position: relative;
+    }
+    .contact-card-text {
+        position: relative;
+        left: 160px;
+    }
+    .counter-3 {
+        position: relative;
+        top: 560px;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* ноутбук */
+    /*ХЕДЕР*/
+    .header {
+        height: 600px;
+    }
+    .logotype {
+        width: 70%;
+        left: 0px;
+    }
+    .burger-toogle {
+        display: none;
+    }
+    .header-title {
+        position: relative;
+        width: 60%;
+        right: 400px;
+    }
+    .header-text {
+        font-size: 16px;
+        font-style: 'Raleway Meduim';
+        color: white;
+        margin: 16px;
+        position: relative;
+        left: 100px;
+        font-size: 18px;
+    }
+    .header-body-text {
+        position: relative;
+        top: 0px;
+    }
+    .contact-button {
+        font-size: 15px;
+        left: 750px;
+        height: 50px;
+        width: 170px;
+        top: 20px;
+        position: absolute;
+    }
+    .fa-address-book {
+        font-size: 22px;
+        position: relative;
+        left: 0px;
+        bottom: 2px;
+    }
+    .header-body {
+        top: 100px;
+    }
+    .header-img img {
+        top: 50px;
+        position: relative;
+        width: 400px;
+        right: 100px;
+    }
+    .contact-button-text {
+        position: absolute;
+        left: 50px;
+        top: 13px;
+    }
+    .header-body-desc {
+        font-size: 16px;
+        width: 700px;
+        top: 10px;
+        position: relative;
+        right: 100px;
+    }
+    .header-desc {
+        position: relative;
+        right: 80px;
+    }
+    .header-body-title {
+        font-size: 72px;
+    }
+    .vertborder {
+        position: relative;
+        height: 110px;
+        right: 100px;
+    }
+    .counter {
+        font-family: 'Montserrat SemiBold';
+        font-size: 65px;
+        margin: 0 auto;
+        bottom: 0px;
+        right: 15px;
+    }
+    .counter-white {
+        font-size: 64px;
+    }
+    .counter-text hr {
+        height: 7px;
+        bottom: 10px;
+        position: relative;
+    }
+    /*МОИ РАБОТЫ*/
+    .header-body-title {
+        position: relative;
+        right: 70px;
+        font-size: 48px;
+    }
+    .jobs-cards {
+        position: relative;
+        padding-left: 55px;
+    }
+    .jobs-title {
+        position: relative;
+        left: 180px;
+    }
+    .jobs-card {
+        margin: 10px;
+    }
+    .card-image img {
+        width: 250px;
+    }
+    .card-text {
+        font-size: 14px;
+        position: relative;
+        top: 80px;
+    }
+    .card-text-desc {
+        font-size: 16px;
+    }
+    .card-done {
+        position: relative;
+        left: 235px;
+        bottom: 150px;
+    }
+    .card-done img {
+        width: 24px;
+    }
+    .jobs {
+        height: 600px;
+    }
+    .counter-2 {
+        position: relative;
+        top: 90px;
+    }
+    /*КОНТАКТЫ*/
+    .contacts {
+        height: 600px;
+    }
+    .contacts-title {
+        position: relative;
+        left: 150px;
+        top: 100px;
+    }
+    .contacts-cards {
+        position: relative;
+        left: 50px;
+        top: 180px;
+    }
+    .contact-card {
+        width: 250px;
+        margin: 30px;
+        height: 130px;
+        border-radius: 25px;
+    }
+    .img-center {
+        width: 170px;
+        top: 10px;
+    }
+    .contact-card-text {
+        position: relative;
+        left: 118px;
+        font-size: 16px;
+    }
+    .card-ico {
+        width: 29px;
+        position: relative;
+        left: 230px;
+        bottom: 10px;
+    }
+    .counter-3 {
+        top: 240px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Планшет */
+    /*ХЕДЕР*/
+    .header ul {
+        display: flex;
+    }
+    .header {
+        height: 600px;
+    }
+    .wrapper-col img {
+        width: 60%;
+        left: 0px;
+        bottom: 0px;
+        position: relative;
+    }
+    .header-body {
+        top: 150px;
+    }
+    .header-title {
+        position: relative;
+        width: 60%;
+        right: 350px;
+    }
+    .fa-bars {
+        color: white;
+        left: 650px;
+        position: absolute;
+        cursor: pointer;
+        bottom: 25px;
+    }
+    .header-text {
+        font-size: 14px;
+        font-style: 'Raleway Meduim';
+        color: white;
+        margin: 16px;
+        left: 350px;
+        position: relative;
+        font-size: 13px;
+    }
+    .header-body-text {
+        position: relative;
+        top: 0px;
+        right: 70px;
+    }
+    .menu-item {
+        position: relative;
+        right: 400px;
+        display: flex;
+    }
+    .header-img img {
+        top: 50px;
+        position: relative;
+        width: 320px;
+        right: 60px;
+    }
+    .contact-button {
+        font-size: 15px;
+        left: 580px;
+        height: 40px;
+        top: 25px;
+        width: 150px;
+        position: absolute;
+    }
+    .fa-address-book {
+        font-size: 18px;
+        position: relative;
+        left: 0px;
+        bottom: 5px;
+    }
+    .contact-button-text {
+        position: absolute;
+        left: 50px;
+        font-size: 14px;
+        top: 10px;
+    }
+    .header-body-desc {
+        font-size: 14px;
+        width: 500px;
+        top: 0px;
+    }
+    .header-desc {
+        position: relative;
+        right: 80px;
+    }
+    .header-body-title {
+        font-size: 72px;
+    }
+    .vertborder {
+        position: relative;
+        height: 120px;
+        bottom: 25px;
+    }
+    .counter {
+        font-family: 'Montserrat SemiBold';
+        font-size: 65px;
+        margin: 0 auto;
+        top: 100px;
+        right: 0px;
+    }
+    /*МОИ РАБОТЫ*/
+    .header-body-title {
+        position: relative;
+        right: 70px;
+        font-size: 48px;
+    }
+    .jobs-cards {
+        position: relative;
+        width: 300px;
+        top: 170px;
+        left: 150px;
+    }
+    .card-image img {
+        width: 400px;
+    }
+    .card-text {
+        font-size: 25px;
+        position: relative;
+        top: 130px;
+    }
+    .card-text-desc {
+        font-size: 16px;
+    }
+    .card-done {
+        position: relative;
+        left: 385px;
+        bottom: 230px;
+    }
+    .card-done img {
+        width: 24px;
+    }
+    .jobs {
+        height: 850px;
+    }
+    .counter-2 {
+        position: relative;
+        top: 90px;
+        right: 300px;
+    }
+    /*КОНТАКТЫ*/
+    .contacts {
+        height: 900px;
+    }
+    .contacts-title {
+        position: relative;
+        left: 150px;
+        top: 100px;
+    }
+    .contacts-cards {
+        position: relative;
+        left: 230px;
+        top: 180px;
+    }
+    .contact-card {
+        width: 250px;
+        margin: 30px;
+        height: 130px;
+        border-radius: 25px;
+    }
+    .img-center {
+        width: 170px;
+        top: 10px;
+    }
+    .contact-card-text {
+        position: relative;
+        left: 118px;
+        font-size: 16px;
+    }
+    .card-ico {
+        width: 29px;
+        position: relative;
+        left: 230px;
+        bottom: 10px;
+    }
+    .counter-3 {
+        top: 220px;
+    }
+}
