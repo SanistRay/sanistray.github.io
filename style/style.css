@@ -552,3 +552,10 @@
             margin: 0 auto;
             left: 60px;
         }
+        
+        .footer {
+            background: #0B0134;
+            width: 100%;
+            margin: 0 auto;
+            height: 450px;
+        }
