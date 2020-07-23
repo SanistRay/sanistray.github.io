@@ -1,3 +1,37 @@
+@media (max-width: 1750px) {
+    /*HEADER*/
+    .header-text {
+        font-size: 20px;
+        left: 350px;
+    }
+    .contact-button {
+        left: 380px;
+    }
+    /*SKILLS*/
+    .card-image img {
+        width: 502px;
+        border-radius: 24px;
+        height: 270px;
+    }
+    .jobs-cards {
+        position: relative;
+        top: 300px;
+        left: 20px;
+    }
+    .card-done {
+        position: relative;
+        bottom: 300px;
+        left: 470px;
+        display: none;
+        transition: 0.3s;
+    }
+    .card-done img {
+        width: 35px !important;
+    }
+    /*JOBS*/
+    /*CONTACTS*/
+}
+
 @media (max-width: 1650px) {
     /*HEADER*/
     .header-text {
@@ -832,17 +866,35 @@
     .header ul {
         display: flex;
     }
+    .button-adress-ico {
+        position: relative;
+        bottom: 7px;
+    }
     .burger-toogle {
         display: inline;
     }
     .header {
         height: 600px;
     }
+    .skills-title {
+        right: 30px;
+    }
+    .skills {
+        height: 1500px;
+    }
     .wrapper-col img {
         width: 60%;
         left: 0px;
         bottom: 0px;
         position: relative;
+    }
+    .skills-card {
+        width: 280px;
+        margin-bottom: 50px;
+        height: 360px;
+    }
+    .skills-cards {
+        left: 230px;
     }
     .header-body {
         top: 150px;
@@ -944,14 +996,26 @@
         right: 70px;
         font-size: 48px;
     }
+    .jobs-title {
+        position: relative;
+        left: 120px;
+    }
+    .category-block {
+        position: relative;
+        left: 40px;
+    }
+    .jobs {
+        height: 1500px;
+    }
     .jobs-cards {
         position: relative;
         width: 300px;
-        top: 170px;
+        top: 300px;
         left: 150px;
     }
     .card-image img {
         width: 400px;
+        height: 230px;
     }
     .card-text {
         font-size: 25px;
@@ -963,19 +1027,11 @@
     }
     .card-done {
         position: relative;
-        left: 385px;
-        bottom: 230px;
+        left: 375px;
+        bottom: 260px;
     }
     .card-done img {
         width: 24px;
-    }
-    .jobs {
-        height: 850px;
-    }
-    .counter-2 {
-        position: relative;
-        top: 90px;
-        right: 300px;
     }
     /*КОНТАКТЫ*/
     .contacts {
@@ -1014,5 +1070,14 @@
     }
     .counter-3 {
         top: 220px;
+    }
+    .footer-left {
+        position: relative;
+        left: 50px;
+        top: 50px;
+    }
+    .navigation {
+        left: 200px;
+        top: 50px;
     }
 }
