@@ -433,7 +433,7 @@
         }
         
         .jobs-card:hover .card-image {
-            filter: brightness(65%);
+            filter: brightness(45%);
         }
         
         .card-image img {
