@@ -49,3 +49,17 @@ $(document).ready(function() {
         }
     });
 });
+$(document).ready(function() {
+    $('#developbutton').click(function() {
+        $('.develop').show();
+        $('.design').hide(500);
+    });
+    $('#allbutton').click(function() {
+        $('.design').show();
+        $('.develop').show();
+    });
+    $('#designbutton').click(function() {
+        $('.design').show();
+        $('.develop').hide(500);
+    });
+});
