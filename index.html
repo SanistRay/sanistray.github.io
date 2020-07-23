@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exodus` - Портфолио</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='style/style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='style/adaptive.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.css'>
@@ -17,7 +18,7 @@
 </head>
 
 <body style="overflow-x: hidden;">
-    <section class="header">
+    <section class="header" id="myheader">
         <div class="container-fluid">
             <div class="row nav-menu">
                 <nav class="wrapper-col align-items-center">
@@ -27,6 +28,12 @@
                             ГЛАВНАЯ
                             <hr>
                         </li>
+                        <a href="#myskills">
+                            <li class="header-text">
+                                МОИ УМЕНИЯ
+                                <hr>
+                            </li>
+                        </a>
                         <a href="#myjobs">
                             <li class="header-text">
                                 МОИ РАБОТЫ
@@ -68,64 +75,111 @@
         </div>
         </div>
     </section>
+    <section class="skills" id="myskills">
+        <div class="container-fluid">
+            <div class="skills-title">
+                <h1 class="header-body-title ">ПОЧЕМУ <span class="header-body-title-2 ">Я?</span> </h1>
+            </div>
+            <div class="skills-cards d-flex">
+                <div class="skills-card">
+                    <div class="skills-body">
+                        <img src="img/design.svg" alt="">
+                        <p class="skills-name">ДИЗАЙН</p>
+                        <p class="skills-desc">Я занимаюсь разработкой дизайна для проектов своих заказчиков, если у них нету готового решения.</p>
+                        <p class="skills-name-2">Что я могу сделать:</p>
+                        <p class="skills-desc-2">UI / UX, разработка макетов, логотипов</p>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <div class="skills-body">
+                        <img src="img/frontend.svg" alt="">
+                        <p class="skills-name">FRONT-END DEVELOPER</p>
+                        <p class="skills-desc">Я начинающий web - разработчик, очень люблю создавать проекты с нуля, и воплощать в жизнь идеи заказчиков.</p>
+                        <p class="skills-name-2">Языки, которые я использую:</p>
+                        <p class="skills-desc-2">HTML, CSS, jQuery</p>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <div class="skills-body">
+                        <img src="img/handshake.svg" alt="">
+                        <p class="skills-name">ПОДХОД</p>
+                        <p class="skills-desc">У меня индивидуальный подход к каждому заказу. Я всегда стараюсь, что бы мой заказчик был доволен.</p>
+                        <p class="skills-name-2">Мой опыт:</p>
+                        <p class="skills-desc-2">UI / UX, дизайн, WEB - разработка</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- МОИ РАБОТЫ -->
     <section class="jobs " id="myjobs">
         <div class="container-fluid ">
             <div class="jobs-wrapper ">
                 <div class="row jobs-title ">
                     <h1 class="header-body-title ">МОИ <span class="header-body-title-2 ">РАБОТЫ</span> </h1>
                 </div>
+                <div class="category-block d-flex">
+                    <button style="outline: none" class="category-button" id="allbutton">Все</button>
+                    <button style="outline: none" class="category-button" id="developbutton">Верстка</button>
+                    <button style="outline: none" class="category-button" id="designbutton">Дизайн</button>
+                </div>
+                <!-- КАРТОЧКИ-->
                 <div class="jobs-cards row ">
-                    <div class="jobs-card ">
-                        <div class="card-image ">
-                            <img src="img/jobs-1.png " alt=" ">
-                        </div>
-                        <div class="card-text-block ">
-                            <p class="card-text ">DenuvoGame <br><span class="card-text-desc ">Верстка страниц
+                    <a target="_blank" href="/myjobs/Denuvo Project/index.html">
+                        <div class="jobs-card develop">
+                            <div class="card-image ">
+                                <img src="img/denuvo.JPG " alt=" ">
+                            </div>
+                            <div class="card-text-block" id="develop">
+                                <p class="card-text ">DenuvoGame <br><span class="card-text-desc ">Верстка страниц
                                     сайта</span></p>
+                            </div>
+                            <div class="card-done ">
+                                <img src="img/done-ico.png " alt=" ">
+                            </div>
                         </div>
-                        <div class="card-done ">
-                            <img src="img/done-ico.png " alt=" ">
-                        </div>
+                    </a>
+                    <a target="_blank" href="https://sanistray.github.io">
+                        <div class="jobs-card design">
+                            <div class="card-image ">
+                                <img src="img/exodus.JPG" alt=" ">
+                            </div>
+                            <div class="card-text-block ">
+                                <p class="card-text ">Exodus` <br><span class="card-text-desc ">Верстка портфолио</span>
+                                </p>
+                            </div>
+                            <div class="card-done ">
+                                <img src="img/done-ico.png " alt=" ">
+                            </div>
+                    </a>
                     </div>
-
-                    <div class="jobs-card ">
+                    <div class="jobs-card develop">
                         <div class="card-image ">
-                            <img src="img/jobs-1.png " alt=" ">
+                            <img src="img/waxom.JPG" alt=" ">
                         </div>
                         <div class="card-text-block ">
-                            <p class="card-text ">DenuvoGame <br><span class="card-text-desc ">Разработка дизайна</span>
-                            </p>
+                            <p class="card-text ">Waxom <br><span class="card-text-desc ">Верстка сайта</span></p>
                         </div>
                         <div class="card-done ">
                             <img src="img/done-ico.png " alt=" ">
                         </div>
                     </div>
-
-                    <div class="jobs-card ">
-                        <div class="card-image ">
-                            <img src="img/jobs-1.png " alt=" ">
+                    <a target="_blank" href="https://sanistray.github.io">
+                        <div class="jobs-card design">
+                            <div class="card-image ">
+                                <img src="img/exodus.JPG" alt=" ">
+                            </div>
+                            <div class="card-text-block ">
+                                <p class="card-text ">Exodus` <br><span class="card-text-desc ">Дизайн портфолио</span></p>
+                            </div>
+                            <div class="card-done ">
+                                <img src="img/done-ico.png " alt=" ">
+                            </div>
                         </div>
-                        <div class="card-text-block ">
-                            <p class="card-text ">DenuvoGame <br><span class="card-text-desc ">Верстка главной
-                                    страницы</span></p>
-                        </div>
-                        <div class="card-done ">
-                            <img src="img/done-ico.png " alt=" ">
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
     </section>
-    <section class="counter-sec ">
-        <div class="counter-2 ">
-            <div class="counter-text row ">
-                <h1 class="counter-white " style="color: #CFCFCF ">0 <span class="counter-red ">2</span>
-                    <hr style="background: #CFCFCF; ">
-                </h1>
-            </div>
-        </div>
-    </section>
-
     <section class="contacts " id="mycontacts">
         <div class="container-fluid ">
             <div class="row ">
@@ -159,11 +213,34 @@
                 </div>
             </div>
         </div>
-        <div class="counter-3 ">
-            <div class="counter-text row ">
-                <h1 class="counter-white ">0 <span class="counter-red ">3</span>
-                    <hr>
-                </h1>
+    </section>
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="d-flex footer-container">
+                <div class="footer-left">
+                    <img src="/img/logotype.svg" alt="">
+                    <div class="footer-ico">
+                        <a target="_blank" href="https://github.com/SanistRay/"><img src="img/ico/github.png" alt=""></a>
+                        <a target="_blank" href="https://vk.com/exodus_dg"><img src="img/ico/vkontakte.png" alt=""></a>
+                        <a target="_blank" href="http://t.me/exodusKZ"><img src="img/ico/telegram.png" alt=""></a>
+                        <p class="footer-text-foot">© Exodus` 2020</p>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <p class="footer-nav-title">Навигация</p>
+                    <a href="#myheader">
+                        <p class="footer-nav-text">Главная</p>
+                    </a>
+                    <a href="#myskills">
+                        <p class="footer-nav-text">Мои умения</p>
+                    </a>
+                    <a href="#myjobs">
+                        <p class="footer-nav-text">Мои работы</p>
+                    </a>
+                    <a href="#mycontacts">
+                        <p class="footer-nav-text">Контакты</p>
+                    </a>
+                </div>
             </div>
         </div>
     </section>

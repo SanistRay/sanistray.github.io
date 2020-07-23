@@ -1,0 +1,664 @@
+@import 'fonts.css';
+@import 'adaptive.css';
+.header {
+    height: 969px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.html {
+    scroll-behavior: smoot;
+}
+
+.body {
+    overflow: auto;
+}
+
+.css-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* СЛАЙДЕР */
+
+.slider {
+    position: relative;
+    width: 1920px;
+    height: 962px;
+    margin: 0 auto;
+}
+
+#slider-image {
+    width: 1920px;
+    height: 975px;
+}
+
+.slide-text {
+    font-size: 40px;
+    font-family: 'Montserrat Bold';
+    color: white;
+    position: absolute;
+    z-index: 999;
+    top: 550px;
+    padding-left: 1200px;
+}
+
+.slide-text span {
+    font-family: 'Montserrat Regular';
+}
+
+.slide-desc {
+    font-family: 'Montserrat Regular';
+    font-size: 26px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+
+/*Кнопка*/
+
+.header-price-rb {
+    background: #FF1469;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 245px;
+    z-index: 2;
+    height: 70px;
+    transition: 0.4s;
+}
+
+.header-price-rb:hover {
+    -webkit-box-shadow: 0px 0px 63px -9px rgba(255, 20, 105, 0.8);
+    -moz-box-shadow: 0px 0px 63px -9px rgba(255, 20, 105, 0.8);
+    box-shadow: 0px 0px 63px -9px rgba(255, 20, 105, 0.8);
+}
+
+.header-price {
+    font-family: 'Montserrat Bold';
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.button-element {
+    position: relative;
+    top: 10px;
+    left: 5px;
+    z-index: 2;
+}
+
+.header-price-rb object {
+    margin: 27px;
+    bottom: 15px;
+    position: relative;
+}
+
+.fa-key {
+    color: white;
+    left: 105px;
+    position: relative;
+    font-size: 30px;
+    bottom: 5px;
+}
+
+.header-game-block {
+    position: relative;
+    top: 400px;
+    left: 750px;
+}
+
+.header-transparent-button {
+    background: transparent;
+    border: 2px solid #7C7C7C;
+    border-radius: 50px;
+    width: 245px;
+    top: 10px;
+    height: 70px;
+    position: relative;
+    right: 240px;
+    z-index: 1;
+    transition: 0.4s;
+}
+
+
+/*НАВИГАЦИЯ*/
+
+.header {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.menu-bar {
+    position: absolute;
+    z-index: 999;
+}
+
+.nav-menu li {
+    list-style-type: none;
+    display: inline;
+    color: white;
+}
+
+.menu-bar nav {
+    width: 1200px;
+    position: absolute;
+    margin: 0 auto;
+    left: 300px;
+    top: 25px;
+}
+
+.nav-text {
+    font-size: 20px;
+    font-family: 'Montserrat Regular';
+    margin-right: 30px;
+    cursor: pointer;
+    top: 5px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.nav-text:hover {
+    color: #FF1469;
+}
+
+.nav-text hr {
+    background: transparent;
+    height: 2px;
+    transition: 0.4s;
+    width: 0%;
+    border-radius: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+.nav-text:hover hr {
+    background: #FF1469;
+    width: 100%;
+}
+
+.nav-menu img {
+    padding-right: 100px;
+}
+
+.auth-reg {
+    position: relative;
+    left: 350px;
+    top: 5px;
+}
+
+
+/*AUTH-REG BUTTON*/
+
+.register {
+    background: #FF1469;
+    border-radius: 17px;
+    width: 190px;
+    height: 55px;
+    border: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.register:hover {
+    -webkit-box-shadow: 0px 0px 37px 0px rgba(255, 20, 105, 0.63);
+    -moz-box-shadow: 0px 0px 37px 0px rgba(255, 20, 105, 0.63);
+    box-shadow: 0px 0px 37px 0px rgba(255, 20, 105, 0.63);
+}
+
+.reg-button object {
+    position: relative;
+    right: 15px;
+}
+
+.reg-button span {
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    position: relative;
+    bottom: 3px;
+}
+
+.auth-button {
+    margin-right: 40px;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-button span {
+    position: relative;
+    transition: 0.4s;
+    bottom: 4px;
+    margin-left: 10px;
+}
+
+
+/* ЛАЙВ ЛЕНТА*/
+
+.recomendation {
+    height: 1000px;
+    width: 100%;
+}
+
+.live-cards {
+    width: 1600px;
+    margin: 0 auto;
+    padding-top: 125px;
+}
+
+.tape {
+    width: 1600px;
+    height: 190px;
+    background: white;
+    -webkit-box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.26);
+    border-radius: 35px;
+}
+
+.live-text {
+    background: #FF1469;
+    color: white;
+    width: 45px;
+    height: 190px;
+    position: relative;
+    bottom: 190px;
+    text-transform: uppercase;
+    writing-mode: horizontal-tb;
+}
+
+.live-vert {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: relative;
+    font-size: 21px;
+    font-family: 'Roboto Regular';
+    width: 190px;
+    right: 75px;
+    top: 45px;
+}
+
+.card-border {
+    position: absolute;
+    width: 130px;
+}
+
+.live-card {
+    left: 70px;
+    top: 10px;
+    position: relative;
+    margin-right: 50px;
+}
+
+.card-img {
+    position: relative;
+    left: 10px;
+    width: 110px !important;
+    top: 10px;
+    transition: 0.4s;
+}
+
+.live-card p {
+    position: relative;
+    left: 7px;
+    top: 30px;
+    font-family: 'Montserrat SemiBold';
+}
+
+.live-card:hover .card-img {
+    filter: brightness(0.3);
+}
+
+.live-card span {
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat SemiBold';
+    font-size: 14px;
+    left: 20px;
+}
+
+.card-name {
+    display: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.live-card:hover .card-name {
+    display: flex;
+}
+
+
+/*РЕКОМЕНДАЦИИ*/
+
+.recomend-block {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.online-counter {
+    background: #FF1469;
+    border-radius: 50px;
+    width: 220px;
+    height: 65px;
+    margin-left: auto;
+}
+
+.online-counter p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat Regular';
+    position: relative;
+    top: 15px;
+}
+
+.recomend-text {
+    font-family: 'Montserrat Bold';
+    font-size: 28px;
+    color: black;
+}
+
+.recomend-text span {
+    font-size: 28px;
+    color: #FF1469;
+}
+
+.recomend-cards {
+    width: 1600px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.rec-card {
+    width: 380px;
+    margin-right: 45px;
+    height: 280px;
+    background: linear-gradient(179.94deg, #1F1921 0.07%, rgba(255, 255, 255, 0) 189.42%), url(/img/rec-img.jpg);
+    box-shadow: 7px 7px 55px rgba(0, 0, 0, 0.09);
+    border-radius: 25px;
+    background-size: cover;
+    width: x;
+    margin: 0 auto;
+    height: y;
+}
+
+.rec-platform {
+    color: white;
+    position: relative;
+    left: 35px;
+    padding-top: 40px;
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+}
+
+.rec-ico {
+    position: relative;
+    bottom: 40px;
+    left: 120px;
+}
+
+.rec-name {
+    color: white;
+    position: relative;
+    font-size: 24px;
+    font-family: 'Montserrat Bold';
+    left: 35px;
+    bottom: 30px;
+}
+
+.rec-price {
+    background: #FF1469;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 58px;
+    left: 35px;
+    top: 40px;
+    position: relative;
+    color: white;
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+.rec-price img {
+    position: relative;
+    left: 50px;
+    bottom: 22px;
+}
+
+.rec-price p {
+    position: relative;
+    right: 40px;
+    top: 15px;
+}
+
+.rec-price:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(255, 20, 105, 0.61);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(255, 20, 105, 0.61);
+    box-shadow: 0px 0px 25px 0px rgba(255, 20, 105, 0.61);
+}
+
+
+/*КНОПКИ СОРТИРОВКИ*/
+
+.sort-button {
+    width: 1500px;
+    padding-top: 100px;
+    margin: 0 auto;
+    right: 50px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.sorter-button {
+    background: white;
+    box-shadow: 4px 4px 80px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    width: 420px;
+    margin-left: 90px;
+    height: 70px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.sort-button-text {
+    font-size: 21px;
+    font-family: 'Montserrat Regular';
+    position: relative;
+    left: 100px;
+    top: 17px;
+}
+
+.fa-user-circle {
+    position: relative;
+    left: 80px;
+    top: 17px;
+}
+
+.sorter-button i {
+    color: black;
+}
+
+.key-ico {
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+
+.sorter-button:hover {
+    box-shadow: 4px 4px 80px rgba(243, 58, 125, 0.49);
+    background: #FF1469;
+    color: white;
+}
+
+.sorter-button:hover .fa-user-circle {
+    color: white;
+}
+
+.sorter-button:hover .fa-compact-disc {
+    color: white;
+}
+
+.sorter-button:hover .fa-key {
+    color: white;
+}
+
+.fa-compact-disc {
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 17px;
+}
+
+
+/*КАТАЛОГ*/
+
+.main-catalog {
+    width: 1500px;
+    top: 300px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.catalog-text {
+    font-family: 'Montserrat Bold';
+    font-size: 24px;
+    position: relative;
+    right: 60px;
+}
+
+.catalog-img {
+    padding-left: 12px;
+}
+
+.catalog-cards {
+    padding-top: 50px;
+    position: relative;
+    left: 80px;
+}
+
+.catalog-card {
+    width: 400px;
+    height: 355px;
+    background: white;
+    border-radius: 20px;
+    margin-right: 60px;
+    -webkit-box-shadow: 0px 5px 90px -30px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 90px -30px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 90px -30px rgba(0, 0, 0, 0.75);
+}
+
+.catalog-poster {
+    background: url(/img/catalog-poster.png);
+    background-size: cover;
+    width: 400px;
+    height: 170px;
+}
+
+.game-name {
+    font-size: 24px;
+    font-family: 'Montserrat Bold';
+}
+
+.game-platform {
+    color: black;
+    position: relative;
+    left: 35px;
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+}
+
+.card-platform-ico {
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+}
+
+.card-buy-button {
+    background: #FF1469;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 58px;
+    right: 40px;
+    top: 0px;
+    position: relative;
+    color: white;
+    font-family: 'Montserrat Bold';
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.card-buy-button img {
+    position: relative;
+    left: 50px;
+    bottom: 22px;
+}
+
+.card-buy-button p {
+    position: relative;
+    right: 40px;
+    top: 15px;
+}
+
+.card-buy-button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(255, 20, 105, 0.61);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(255, 20, 105, 0.61);
+    box-shadow: 0px 0px 25px 0px rgba(255, 20, 105, 0.61);
+}
+
+
+/*FOOTER*/
+
+.footer {
+    width: 1920px;
+    top: 400px;
+    position: relative;
+    background: #1F1F1F;
+    margin: 0 auto;
+}
+
+.footer-text img {
+    position: relative;
+    left: 300px;
+    top: 130px;
+}
+
+.footer-text-block {
+    width: 680px;
+    color: white;
+    position: relative;
+    left: 300px;
+    top: 150px;
+}
+
+.footer-nav {
+    position: relative;
+    color: white;
+    left: 1300px;
+    bottom: 80px;
+    display: block;
+    width: 100px;
+    font-size: 16px;
+    font-family: 'Roboto Regular';
+}
+
+.footer-nav-title {
+    color: #FF1469;
+    font-size: 24px;
+    font-family: 'Montserrat Bold';
+}
+
+.footer-nav-text {
+    cursor: pointer;
+}
