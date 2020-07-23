@@ -32,20 +32,25 @@ $(document).ready(function() {
     if (cardW < 769) { //условие
         $('.jobs-cards').removeClass('row'); //удаляем класс
         $('.contacts-cards').removeClass('row');
+        $('.skills-cards').removeClass('d-flex');
+
 
     } else {
         $('.jobs-cards').addClass('row'); //добавляем класс
         $('.contacts-cards').addClass('row');
+        $('.skills-cards').addClass('d-flex');
     }
     $(window).resize(function() { //проверка на изменение размера элемента, в нашем случае window (для работы при динамическом изменении окна)
         var cardW = $('body').width(); //присваиваем сначение ширины экрана переменной
         if (cardW < 769) { //условие
             $('.jobs-cards').removeClass('row'); //удаляем класс
             $('.contacts-cards').removeClass('row');
+            $('.skills-cards').removeClass('d-flex');
 
         } else {
             $('.jobs-cards').addClass('row'); //добавляем класс
             $('.contacts-cards').addClass('row');
+            $('.skills-cards').addClass('d-flex');
         }
     });
 });
