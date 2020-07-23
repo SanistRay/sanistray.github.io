@@ -418,7 +418,7 @@
         
         .card-text {
             color: white;
-            font-family: 'Montserrat SemiBold';
+            font-family: 'Montserrat', sans-serif;
             font-size: 33px;
             position: relative;
             left: 20px;
@@ -433,7 +433,7 @@
         }
         
         .jobs-card:hover .card-image {
-            filter: brightness(65%);
+            filter: brightness(45%);
         }
         
         .card-image img {
