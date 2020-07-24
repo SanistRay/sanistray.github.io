@@ -879,6 +879,12 @@
     .skills-title {
         right: 30px;
     }
+    .header-img img {
+        top: 50px;
+        position: relative;
+        width: 320px;
+        left: 0px;
+    }
     .skills {
         height: 1500px;
     }
@@ -929,12 +935,6 @@
         position: relative;
         right: 400px;
         display: flex;
-    }
-    .header-img img {
-        top: 50px;
-        position: relative;
-        width: 320px;
-        right: 60px;
     }
     .contact-button {
         font-size: 15px;
@@ -1079,5 +1079,109 @@
     .navigation {
         left: 200px;
         top: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu-item {
+        position: relative;
+        right: 350px;
+        display: flex;
+    }
+    .fa-bars {
+        position: absolute;
+        left: 343px;
+        top: 13px;
+    }
+    .header-text {
+        font-size: 10px !important;
+        font-style: 'Raleway Meduim';
+        color: white;
+        margin: 5px;
+        width: 70px;
+        left: 350px;
+        position: relative;
+        font-size: 14px;
+    }
+    .contact-button {
+        font-size: 15px;
+        left: 585px;
+        height: 30px;
+        top: 15px;
+        width: 100px;
+        position: absolute;
+    }
+    .contact-button-text {
+        position: absolute;
+        left: 40px;
+        font-size: 9px;
+        top: 8px;
+    }
+    .fa-address-book {
+        font-size: 12px;
+        left: 0px;
+        top: 0px;
+        position: relative;
+    }
+    .wrapper-col img {
+        width: 60%;
+        right: 20px;
+        bottom: 0px;
+        position: relative;
+    }
+    .logo-hide {
+        display: none;
+    }
+    .header-body-title {
+        position: relative;
+        right: 70px;
+        font-size: 24px !important;
+    }
+    .header-body-desc {
+        font-size: 9px;
+        width: 200px;
+        top: 0px;
+    }
+    .header-img img {
+        top: 150px;
+        position: relative;
+        width: 150px;
+        left: 30px;
+    }
+    .vertborder {
+        position: relative;
+        height: 95px;
+        bottom: 25px;
+    }
+    .skills-title {
+        left: 70px;
+    }
+    .skills-cards {
+        left: 50px;
+    }
+    .skills-body {
+        padding-top: 35px;
+    }
+    .category-block {
+        position: relative;
+        left: 20px;
+    }
+    .category-button {
+        width: auto;
+        padding: 7px 25px 7px 25px !important;
+        font-size: 15px;
+    }
+    .jobs-cards {
+        left: 0px;
+    }
+    .card-image img {
+        width: 350px;
+        height: 200px;
+    }
+    .contacts-cards {
+        left: 50px;
+    }
+    .navigation {
+        display: none;
     }
 }

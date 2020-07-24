@@ -1,5 +1,6 @@
         @import 'fonts.css';
         @import 'adaptive.css';
+        @import 'fonts/stylesheet.css';
         .html {
             scroll-behavior: smoot;
         }
@@ -300,7 +301,7 @@
         .skills-name {
             padding-top: 30px;
             color: #343434;
-            font-family: 'Montserrat SemiBold';
+            font-family: "Montserrat SemiBold";
             font-size: 28px;
         }
         
@@ -308,7 +309,7 @@
             padding-top: 20px;
             width: 350px;
             font-size: 16px;
-            font-family: 'Montserrat Regular';
+            font-family: 'Montserrat', sans-serif;
             color: black;
             position: relative;
             left: 50px;
@@ -318,14 +319,14 @@
             padding-top: 40px;
             color: #4C0DFF;
             font-size: 20px;
-            font-family: 'Montserrat Regular';
+            font-family: 'Montserrat', sans-serif;
         }
         
         .skills-desc-2 {
             width: 450px;
             color: black;
             font-size: 18px;
-            font-family: 'Montserrat Regular';
+            font-family: 'Montserrat', sans-serif;
         }
         /*JOBS*/
         
@@ -428,7 +429,7 @@
         }
         
         .card-text-desc {
-            font-family: 'Montserrat Regular';
+            font-family: 'Montserrat', sans-serif;
             font-size: 30px;
         }
         
