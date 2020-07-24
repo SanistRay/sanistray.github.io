@@ -25,6 +25,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.burger-toogle').click(function() { //при клике на класс
         $('#menu-hide').toggle(400); //скрываем элемент в течении 0.3с
+        $('.logotype').toggleClass('logo-hide');
     });
 });
 $(document).ready(function() {
